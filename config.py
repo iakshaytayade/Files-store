@@ -15,6 +15,9 @@ API_HASH = os.environ.get("API_HASH", "")
 #Your db channel Id
 CHANNEL_ID = int(os.environ.get("CHANNEL_ID", ""))
 
+#auto delete time 
+HK_SECONDS = int(os.environ.get("HK_SECONDS", "900"))
+
 #OWNER ID
 OWNER_ID = int(os.environ.get("OWNER_ID", ""))
 
